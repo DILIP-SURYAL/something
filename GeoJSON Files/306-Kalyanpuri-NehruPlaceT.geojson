@@ -1,0 +1,279 @@
+{
+  "type": "FeatureCollection",
+  "name": "306-Kalyanpuri-NehruPlaceT",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": {
+    "type": "Feature",
+    "properties": {
+      "search_id": "searches_1",
+      "location_id": "locations_1",
+      "prop_travel_time": "3878",
+      "prop_distance": "298",
+      "prop_route": {
+        "departure_time": "2024-08-30T09:54:29+05:30",
+        "arrival_time": "2024-08-30T10:59:07+05:30",
+        "parts": [
+          {
+            "id": 0,
+            "type": "start_end",
+            "mode": "walk",
+            "directions": "Start your journey 13 meters east",
+            "distance": 13,
+            "travel_time": 9,
+            "coords": [
+              { "lat": 28.614884680844245, "lng": 77.31915908914893 },
+              { "lat": 28.61483690000003, "lng": 77.31928790000012 }
+            ],
+            "direction": "east"
+          },
+          {
+            "id": 1,
+            "type": "road",
+            "mode": "walk",
+            "directions": "Walk 21 meters along Kotla Road",
+            "distance": 21,
+            "travel_time": 16,
+            "coords": [
+              { "lat": 28.61483690000003, "lng": 77.31928790000012 },
+              { "lat": 28.614859799999994, "lng": 77.31930950000007 },
+              { "lat": 28.6150176, "lng": 77.31938220000012 }
+            ],
+            "road": "Kotla Road"
+          },
+          {
+            "id": 2,
+            "type": "road",
+            "mode": "walk",
+            "directions": "Slight left  and walk 25 meters",
+            "distance": 25,
+            "travel_time": 18,
+            "coords": [
+              { "lat": 28.6150176, "lng": 77.31938220000012 },
+              { "lat": 28.615249799999994, "lng": 77.31938740000008 }
+            ],
+            "turn": "slight_left"
+          },
+          {
+            "id": 3,
+            "type": "basic",
+            "mode": "walk",
+            "directions": "",
+            "distance": 43,
+            "travel_time": 62,
+            "coords": [
+              { "lat": 28.615249799999994, "lng": 77.31938740000008 },
+              { "lat": 28.61515, "lng": 77.319817 }
+            ]
+          },
+          {
+            "id": 4,
+            "type": "public_transport",
+            "mode": "bus",
+            "directions": "Take a bus ( / YMS(+)UP (of Delhi Transport Corporation)) from 'Kalyan Puri Terminal' (leaves at 09:56) to 'Patpar Ganj Xing' (arrives at 10:09) (9 stops)",
+            "distance": 0,
+            "travel_time": 799,
+            "coords": [
+              { "lat": 28.61515, "lng": 77.319817 },
+              { "lat": 28.61335, "lng": 77.3162 },
+              { "lat": 28.612790000000004, "lng": 77.312844 },
+              { "lat": 28.612217, "lng": 77.30605 },
+              { "lat": 28.6132, "lng": 77.3014 },
+              { "lat": 28.6128, "lng": 77.2976 },
+              { "lat": 28.6132, "lng": 77.2955 },
+              { "lat": 28.6136, "lng": 77.2937 },
+              { "lat": 28.6142, "lng": 77.2911 },
+              { "lat": 28.6167, "lng": 77.2878 }
+            ],
+            "line": " / YMS(+)UP (of Delhi Transport Corporation)",
+            "departure_station": "Kalyan Puri Terminal",
+            "arrival_station": "Patpar Ganj Xing",
+            "departs_at": "09:56",
+            "arrives_at": "10:09",
+            "num_stops": 9
+          },
+          {
+            "id": 5,
+            "type": "basic",
+            "mode": "walk",
+            "directions": "Leave Patpar Ganj Xing",
+            "distance": 6,
+            "travel_time": 9,
+            "coords": [
+              { "lat": 28.6167, "lng": 77.2878 },
+              { "lat": 28.616729100000086, "lng": 77.28785410000032 }
+            ]
+          },
+          {
+            "id": 6,
+            "type": "road",
+            "mode": "walk",
+            "directions": "Walk 9 meters along Patparganj Road",
+            "distance": 9,
+            "travel_time": 7,
+            "coords": [
+              { "lat": 28.616729100000086, "lng": 77.28785410000032 },
+              { "lat": 28.616782300000043, "lng": 77.28782080000028 },
+              { "lat": 28.616806300000118, "lng": 77.28780580000002 }
+            ],
+            "road": "Patparganj Road"
+          },
+          {
+            "id": 7,
+            "type": "basic",
+            "mode": "walk",
+            "directions": "",
+            "distance": 27,
+            "travel_time": 39,
+            "coords": [
+              { "lat": 28.616806300000118, "lng": 77.28780580000002 },
+              { "lat": 28.6170442448929, "lng": 77.28774413466449 }
+            ]
+          },
+          {
+            "id": 8,
+            "type": "public_transport",
+            "mode": "bus",
+            "directions": "Take a bus ( / 543UP (of Delhi Transport Corporation)) from 'Patpar Ganj Flyover' (leaves at 10:10) to 'Nehru Nagar' (arrives at 10:40) (7 stops)",
+            "distance": 0,
+            "travel_time": 1788,
+            "coords": [
+              { "lat": 28.6170442448929, "lng": 77.28774413466449 },
+              { "lat": 28.615766999999998, "lng": 77.28546700000003 },
+              { "lat": 28.61235, "lng": 77.282533 },
+              { "lat": 28.6036, "lng": 77.2691 },
+              { "lat": 28.5911, "lng": 77.258083 },
+              { "lat": 28.5821, "lng": 77.26555 },
+              { "lat": 28.574941, "lng": 77.262217 },
+              { "lat": 28.568283, "lng": 77.253917 }
+            ],
+            "line": " / 543UP (of Delhi Transport Corporation)",
+            "departure_station": "Patpar Ganj Flyover",
+            "arrival_station": "Nehru Nagar",
+            "departs_at": "10:10",
+            "arrives_at": "10:40",
+            "num_stops": 7
+          },
+          {
+            "id": 9,
+            "type": "public_transport",
+            "mode": "bus",
+            "directions": "Take a bus ( / 427AUP (of Delhi Transport Corporation)) from 'Nehru Nagar' (leaves at 10:41) to 'Paras Cinema' (arrives at 10:56) (11 stops)",
+            "distance": 0,
+            "travel_time": 1000,
+            "coords": [
+              { "lat": 28.568283, "lng": 77.253917 },
+              { "lat": 28.56675, "lng": 77.253117 },
+              { "lat": 28.564183, "lng": 77.250367 },
+              { "lat": 28.5624, "lng": 77.251417 },
+              { "lat": 28.562167, "lng": 77.255617 },
+              { "lat": 28.56215, "lng": 77.2582 },
+              { "lat": 28.559325, "lng": 77.2615 },
+              { "lat": 28.5565, "lng": 77.2648 },
+              { "lat": 28.553683000000003, "lng": 77.26513299999998 },
+              { "lat": 28.55205, "lng": 77.2645 },
+              { "lat": 28.548512, "lng": 77.25715699999998 },
+              { "lat": 28.5479, "lng": 77.2547 }
+            ],
+            "line": " / 427AUP (of Delhi Transport Corporation)",
+            "departure_station": "Nehru Nagar",
+            "arrival_station": "Paras Cinema",
+            "departs_at": "10:41",
+            "arrives_at": "10:56",
+            "num_stops": 11
+          },
+          {
+            "id": 10,
+            "type": "basic",
+            "mode": "walk",
+            "directions": "Leave Paras Cinema",
+            "distance": 26,
+            "travel_time": 38,
+            "coords": [
+              { "lat": 28.5479, "lng": 77.2547 },
+              { "lat": 28.54813279999994, "lng": 77.25476519999967 }
+            ]
+          },
+          {
+            "id": 11,
+            "type": "road",
+            "mode": "walk",
+            "directions": "Walk 126 meters",
+            "distance": 126,
+            "travel_time": 92,
+            "coords": [
+              { "lat": 28.54813279999994, "lng": 77.25476519999967 },
+              { "lat": 28.54842429999994, "lng": 77.25457869999967 },
+              { "lat": 28.548482999999976, "lng": 77.25480730000002 },
+              { "lat": 28.54803499999996, "lng": 77.25508120000035 },
+              { "lat": 28.548069300000012, "lng": 77.25518379999991 }
+            ]
+          },
+          {
+            "id": 12,
+            "type": "start_end",
+            "mode": "walk",
+            "directions": "Your destination is 2 meters southwest",
+            "distance": 2,
+            "travel_time": 1,
+            "coords": [
+              { "lat": 28.548069300000012, "lng": 77.25518379999991 },
+              { "lat": 28.54805404127602, "lng": 77.25516324626234 }
+            ],
+            "direction": "southwest"
+          }
+        ]
+      }
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [77.319159089148926, 28.614884680844245],
+        [77.31928790000012, 28.614836900000029],
+        [77.319309500000074, 28.6148598],
+        [77.319382200000121, 28.6150176],
+        [77.319387400000082, 28.6152498],
+        [77.319817, 28.61515],
+        [77.3162, 28.61335],
+        [77.312844, 28.61279],
+        [77.30605, 28.612217],
+        [77.3014, 28.6132],
+        [77.2976, 28.6128],
+        [77.2955, 28.6132],
+        [77.2937, 28.6136],
+        [77.2911, 28.6142],
+        [77.2878, 28.6167],
+        [77.287854100000317, 28.616729100000086],
+        [77.287820800000276, 28.616782300000043],
+        [77.287805800000015, 28.616806300000118],
+        [77.287744134664493, 28.617044244892899],
+        [77.285467, 28.615767],
+        [77.282533, 28.61235],
+        [77.2691, 28.6036],
+        [77.258083, 28.5911],
+        [77.26555, 28.5821],
+        [77.262217, 28.574941],
+        [77.253917, 28.568283],
+        [77.253117, 28.56675],
+        [77.250367, 28.564183],
+        [77.251417, 28.5624],
+        [77.255617, 28.562167],
+        [77.2582, 28.56215],
+        [77.2615, 28.559325],
+        [77.2648, 28.5565],
+        [77.265133, 28.553683],
+        [77.2645, 28.55205],
+        [77.257157, 28.548512],
+        [77.2547, 28.5479],
+        [77.254765199999667, 28.548132799999941],
+        [77.254578699999669, 28.54842429999994],
+        [77.254807300000024, 28.548483],
+        [77.255081200000348, 28.548035],
+        [77.255183799999912, 28.548069300000012],
+        [77.255163246262342, 28.548054041276021]
+      ]
+    }
+  }
+}

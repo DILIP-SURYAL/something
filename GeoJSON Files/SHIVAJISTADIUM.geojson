@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "SHIVAJISTADIUM",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 9 }, "geometry": { "type": "Point", "coordinates": [ 77.215544811544206, 28.632939701963256 ] } }
+]
+}

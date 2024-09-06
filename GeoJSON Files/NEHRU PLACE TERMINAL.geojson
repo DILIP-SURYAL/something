@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "NEHRU PLACE TERMINAL",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 7 }, "geometry": { "type": "Point", "coordinates": [ 77.255163246262342, 28.548054041276021 ] } }
+]
+}
